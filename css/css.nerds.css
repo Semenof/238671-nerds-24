@@ -1,0 +1,122 @@
+body  {
+    margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 100%;
+  color: #61686c;
+  text-transform: uppercase;
+  
+  background-color: #ffffff;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.inner-page  {
+
+}
+
+a  {
+    text-decoration: none;
+}
+
+h1  {
+    text-align: center;
+}
+
+.grid  {
+    list-style: none; 
+}
+
+.features  {
+    list-style: none;
+}
+
+.logo a:hover,
+.logo a:focus,
+.logo a:active {
+    color: #a6a6a6;
+}
+
+.main-header {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    background-color: #eeeeee;
+}
+
+.site-navigation,
+.user-navigation  {
+    list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+    color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus  {
+    color: #a6a6a6;
+}
+
+.proposals li {
+    list-style: none;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.proposal-item  {
+    text-align: center;
+}
+
+.proposals h2  {
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.proposals p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #535a5e;
+}
+
+.proposal-item a  {
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.main-footer h3 {
+    font-family: "Roboto Bold", sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.main-footer p {
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #444444;  
+}
+
+
+
+
+
+
+
+
+
+
