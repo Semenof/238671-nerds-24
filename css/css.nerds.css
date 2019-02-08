@@ -15,7 +15,10 @@ body  {
 }
 
 .inner-page  {
-
+  color: #000000;
+  background-color: #ffffff;
+  background-position: top center;
+  background-repeat: no-repeat;
 }
 
 a  {
@@ -27,10 +30,16 @@ h1  {
 }
 
 .grid  {
+    color: #a6a6a6;
     list-style: none; 
 }
 
+.info  {
+    color: #a6a6a6;
+}
+
 .features  {
+    color: #a6a6a6;
     list-style: none;
 }
 
@@ -93,6 +102,11 @@ h1  {
     font-size: 16px;
     line-height: 18px;
     color: #ffffff;
+}
+
+.page-title  {
+    font-size: 55px;
+    line-height: 55px;
 }
 
 .main-footer h3 {
