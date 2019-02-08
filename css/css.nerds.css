@@ -121,8 +121,21 @@ h1  {
     font-family: "Roboto Regular", sans-serif;
     font-size: 16px;
     line-height: 22px;
-    text-align: center;
     color: #444444;  
+}
+
+.form-btn  {
+    text-align: center;
+    width: 260px;
+    height: 50px;
+    background-color: #fb565a;
+  }
+
+.write  {
+    width: 306px;
+    height: 33px;
+    font-family: Roboto;
+    color: #000000;
 }
 
 
