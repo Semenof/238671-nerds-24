@@ -50,6 +50,7 @@ h1  {
 }
 
 .main-header {
+    display: flex;
     font-family: "Roboto", Arial, sans-serif;
     font-size: 16px;
     line-height: 30px;
@@ -57,8 +58,10 @@ h1  {
     background-color: #eeeeee;
 }
 
+.main-navigation,
 .site-navigation,
 .user-navigation  {
+    display: flex;
     list-style: none;
 }
 
@@ -72,6 +75,10 @@ h1  {
 .user-navigation a:hover,
 .user-navigation a:focus  {
     color: #a6a6a6;
+}
+
+.proposals  {
+    display: flex;
 }
 
 .proposals li {
@@ -109,6 +116,19 @@ h1  {
     line-height: 55px;
 }
 
+footer  {
+    display: flex;
+}
+
+form  {
+    display: flex;
+}
+
+.templates ul {
+    list-style: none;
+    display: flex;
+}
+
 .main-footer h3 {
     font-family: "Roboto Bold", sans-serif;
     font-size: 36px;
@@ -124,12 +144,20 @@ h1  {
     color: #444444;  
 }
 
-.form-btn  {
-    text-align: center;
+button  {
     width: 260px;
-    height: 50px;
+    height: 50;
+    color: #ffffff;
     background-color: #fb565a;
-  }
+    border: none;
+ }
+
+ .grey-btn {
+    width: 260px;
+    height: 50;
+    color: #000000;
+    background-color: #eeeeee;
+ }
 
 .write  {
     width: 306px;
@@ -138,6 +166,59 @@ h1  {
     color: #000000;
 }
 
+/* Сетки */
+
+.templates ul {
+    list-style: none;
+}
+
+.proposals-list  {
+    display: flex;
+    align-items: center;
+ }
+
+ .proposal-item1  {
+    flex-direction: row;
+    justify-content: space-between;
+   
+ }
+
+ .proposal-item2  {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px;
+    
+ }
+
+ .proposal-item3  {
+     justify-content: space-between;
+     margin: 0;
+ }
+
+ .ppl1  {
+    width: 160px;
+    height: 50;
+    color: #ffffff;
+    background-color: #fb565a;
+    border: none;
+ }
+
+ .ppl2  {
+    width: 160px;
+    height: 50;
+    color: #ffffff;
+    background-color: #00ca74;
+    border: none;
+ }
+
+ .ppl3  {
+    width: 160px;
+    height: 50;
+    color: #ffffff;
+    background-color: #efc84a;
+    border: none;
+ }
+ 
 
 
 
