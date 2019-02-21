@@ -1,12 +1,12 @@
 body  {
-    margin: 0;
+  margin: 0;
   padding: 0;
 
   font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 100%;
-  color: #61686c;
+  color: #61686c; 
   text-transform: uppercase;
   
   background-color: #ffffff;
@@ -20,10 +20,261 @@ body  {
   background-position: top center;
   background-repeat: no-repeat;
 }
+.filter-item {
+    margin: 0;
+    padding: 0;
+    
+    border: none;
+    
+    /* Для демонстрации */
+    width: 260px;
+    margin: 50px auto; 
+  }
+  
+  .range-filter {
+    width: 260px;
+    margin-top: 49px;
+  }
+  
+  .filter-item legend {
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  .range-controls {
+    position: relative;
+    
+    height: 41px;
+    margin-bottom: 15px;
+    padding-top: 39px;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    background-color: #f1f1f1;
+    
+    border-radius: 5px;
+  }
+  
+  .range-controls .scale {
+    height: 2px;
+  
+    background: #d7dcde;
+  }
+  
+  .range-controls .bar {
+    width: 70%;
+    height: 2px;
+  
+    background: #00ca74;
+  }
+  
+  .range-controls .toggle {
+    position: absolute;
+    top: 31px;
+    left: 0;
+    
+    width: 4px;
+    height: 4px;
+    padding: 0;
+  
+    border: 8px solid #ffffff;
+    background-color: #ababab;
+    box-shadow: 0 2px 1px 0 #cfcfcf;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .range-controls .toggle-min {
+    left: 50px;
+  }
+  
+  .range-controls .toggle-max {
+    left: 110px;
+  }
+  
+  .price-controls {
+    font-size: 0;
+  }
+  
+  .price-controls label {
+    display: inline-block;
+    width: 50%;
+    
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+  .price-controls input {
+    width: 60px;
+    padding: 8px 10px;
+    margin-left: 10px;
+    
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: #283136;
+    
+    border: none;
+    border-radius: 5px;
+    background: #f1f1f1;
+  }
+  
+  .max-price {
+    text-align: right;
+  }
 
 a  {
     text-decoration: none;
 }
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(0, 0, 0, 0);
+  }
+  
+  .main-header {
+    background-color: #eeeeee;
+    
+    /* Временно для демонстрации */
+    height: 50px;
+  }
+
+  .slider {
+    position: relative;
+    background-color: #eeeeee;
+  }
+
+  .slider-controls {
+    position: absolute;
+    left: 50%;
+    bottom: 104px;
+    z-index: 100;
+    
+    width: 160px;
+    height: 18px;
+  
+    text-align: center;
+    font-size: 0;
+    transform: translateX(-50%);
+  }
+
+  .slider-controls i {
+    position: relative;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+ 
+    
+  }
+
+  .slider-controls i::after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 1;
+    width: 18px;
+    height: 18px;
+    background: #ffffff;
+    border-radius: 50%;
+  } 
+  .slider-controls .active::before {
+  
+}
+
+  .slider-list {
+    margin: 50px;
+    padding: 50px;
+    
+    list-style: none;
+  }
+
+  .slider-item {
+    display: none;
+    padding: 78px 0 80px 0;
+  }
+  
+  .slider-item:nth-child(1) {
+    display: block;
+  } 
+  .slider-item:nth-child(1) {
+    background-image: url("img/slide-1.png");
+    background-repeat: no-repeat;
+    background-position: 93% 18px;
+  }
+
+  .slider-item:nth-child(2) {
+    background-image: url("img/slide-2.png");
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+  }
+  
+  .slider-item:nth-child(3) {
+    background-image: url("img/slide-3.png");
+    background-repeat: no-repeat;
+    background-position: 100% 20px;
+  }
+  
+
+  .slider-item h3 {
+    max-width: 600px;
+    margin: 0;
+    margin-bottom: 27px;  
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 500;
+    
+  }
+
+  .slider-item p {
+    max-width: 430px;
+    margin: 0;
+    margin-bottom: 38px;
+  }
+
+  .button {
+    display: block;
+    width: 240px;
+    padding: 13px 0;
+    
+    font-size: 16px;
+    line-height: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    
+    background-color: #fb565a;
+    border-radius: 3px;
+    border: none;
+  }
+  
+  .button:hover,
+  .button:focus {
+    background-color: #e74246;
+  }
+  
+  .button:active {
+    color: rgba(255, 255, 255, 0.3);
+    
+    background-color: #d7373b;
+    box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
+  }
 
 h1  {
     text-align: center;
@@ -58,11 +309,26 @@ h1  {
     background-color: #eeeeee;
 }
 
-.main-navigation,
+.main-navigation  {
+    display: flex;
+  direction: row;
+  justify-content: space-between;
+  padding-top: 49px;
+  text-transform: uppercase;
+  line-height: 30px;
+  color: #000000;
+  background: #eeeeee;
+}
 .site-navigation,
 .user-navigation  {
+    /* display: flex;
+    margin-right: 500px;
+    list-style: none; */
     display: flex;
-    list-style: none;
+  direction: row;
+  justify-content: space-between;
+  width: 440px;
+  list-style: none;
 }
 
 .site-navigation a,
@@ -77,8 +343,11 @@ h1  {
     color: #a6a6a6;
 }
 
+
 .proposals  {
     display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .proposals li {
@@ -91,6 +360,9 @@ h1  {
 
 .proposal-item  {
     text-align: center;
+    display: block;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 .proposals h2  {
@@ -114,20 +386,42 @@ h1  {
 .page-title  {
     font-size: 55px;
     line-height: 55px;
+    visibility: hidden;
 }
 
 footer  {
     display: flex;
+    
 }
 
 form  {
     display: flex;
+    visibility: hidden;
 }
 
-.templates ul {
-    list-style: none;
+ .flex-container  {
+    width: 760px;
     display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+     /* list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    align-content: stretch; */
 }
+/* .template-list  {
+    width: 650px;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+  
+    align-content: stretch;
+    list-style: none; 
+}  */ 
 
 .main-footer h3 {
     font-family: "Roboto Bold", sans-serif;
@@ -168,9 +462,7 @@ button  {
 
 /* Сетки */
 
-.templates ul {
-    list-style: none;
-}
+ 
 
 .proposals-list  {
     display: flex;
@@ -218,9 +510,11 @@ button  {
     background-color: #efc84a;
     border: none;
  }
+/* сетка */
  
+	
 
-
+ 
 
 
 
