@@ -1143,6 +1143,8 @@ a {
   transform: translate(-50%, -50%);
 }
 
+
+
 @keyframes bounce {
   0% {
     transform: translate(-50%, -1000%);
@@ -1164,8 +1166,8 @@ a {
 .modal-show {
   display: block;
 
-  animation-name: bounce;
-  animation-duration: 0.5s;
+   animation-name: bounce;
+  animation-duration: 0.5s; 
 }
 
 @keyframes shake {
