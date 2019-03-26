@@ -78,13 +78,14 @@ a {
 }
 
 .main-navigation ul {
-	padding: 26px 0 0;
+	margin: initial;
+	padding: 26px 48px 0 0;
 	list-style: none;
 }
 
 .main-navigation img {
 	display: block;
-	padding-left: 70px;
+	padding-left: 45px;
 }
 
 .main-navigation a:hover,
@@ -455,6 +456,7 @@ a.current  {
 	border-left: 6px solid rgba(0, 0, 0, 0);
 }
 
+
 .order-decrease {
 	display: block;
 	border-right: 6px solid rgba(0, 0, 0, 0);
@@ -565,6 +567,7 @@ a.current  {
 }
 
 .templates-info p {
+	min-width: auto;
 	margin: 0 0 30px 0px;
 	line-height: 18px;
 	color: #666666;
@@ -675,7 +678,7 @@ a.current  {
 
 .slider-item h3 {
 	width: 520px;
-	margin: 0;
+	margin: 0 45px;
 	margin-bottom: 27px;
 	font-weight: 500;
 	font-size: 55px;
@@ -683,7 +686,7 @@ a.current  {
 }
 
 .slider-item p {
-	margin: 0;
+	margin: 0 45px 0 45px;
 	margin-bottom: 38px;
 }
 
@@ -693,6 +696,7 @@ a.current  {
 
 .slider .button {
 	width: 200px;
+	margin: 0 45px;
 }
 
 .slider-controls {
